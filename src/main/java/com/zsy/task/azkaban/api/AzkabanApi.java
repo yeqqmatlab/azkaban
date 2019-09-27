@@ -2,7 +2,6 @@ package com.zsy.task.azkaban.api;
 
 import com.zsy.task.azkaban.response.ExecuteFlowResponse;
 import com.zsy.task.azkaban.response.FetchExecFlowResponse;
-
 import java.io.IOException;
 
 /**
@@ -29,7 +28,6 @@ public interface AzkabanApi {
      * @return
      */
     ExecuteFlowResponse executeFlow(String projectName, String flowName, String argName,String argValue) throws IOException;
-
 
     /**
      * 查询执行Flow信息

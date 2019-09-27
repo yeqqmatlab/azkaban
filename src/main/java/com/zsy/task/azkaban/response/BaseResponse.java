@@ -17,7 +17,7 @@ public class BaseResponse {
      * 错误类型(映射Azkaban)
      */
     private String error;
-    
+
     /**
      * 详细信息
      */
