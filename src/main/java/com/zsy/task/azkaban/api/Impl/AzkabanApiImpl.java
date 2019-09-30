@@ -31,7 +31,7 @@ public class AzkabanApiImpl implements AzkabanApi {
 
     private static String uri;
 
-    private static String sessionId;
+    //private static String sessionId;
 
     public AzkabanApiImpl(){
         //AzkabanApiConfig azkabanApiConfig = new AzkabanApiConfig();
