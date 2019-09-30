@@ -30,18 +30,12 @@ public class AzkabanApiTest {
     public void fetchExecFlow() throws IOException {
 
         AzkabanApi azkabanApi = new AzkabanApiImpl();
-
-        FetchExecFlowResponse fetchExecFlowResponse = azkabanApi.fetchExecFlow("1477");
-
+        FetchExecFlowResponse fetchExecFlowResponse = azkabanApi.fetchExecFlow("1482");
         System.out.println("fetchExecFlowResponse-->"+fetchExecFlowResponse.getStatus());
-
         System.out.println(fetchExecFlowResponse.getStartTime());
-
         System.out.println(fetchExecFlowResponse.getEndTime());
-
         System.out.println(fetchExecFlowResponse.getFlowId());
-
         System.out.println(fetchExecFlowResponse.getFlow());
-
+        System.out.println(fetchExecFlowResponse.getNestedId());
     }
 }

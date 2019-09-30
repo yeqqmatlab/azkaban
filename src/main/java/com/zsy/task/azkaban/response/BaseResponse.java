@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class BaseResponse {
 
-    public static final String SUCCESS = "00";
+    public static final String SUCCESS = "SUCCESS";
 
-    public static final String ERROR = "01";
+    public static final String ERROR = "ERROR";
 
     /**
      * 响应状态
